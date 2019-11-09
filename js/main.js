@@ -22,7 +22,7 @@ menu.addEventListener("click",function(){
 
   var navBar = document.querySelector("#navBar");
  window.onscroll = function() {scrollFunction()};
-
+mobileMenu.classList.add("mobile-border");
 function scrollFunction() {
   if (document.body.scrollTop > navBar.offsetHeight || document.documentElement.scrollTop > navBar.offsetHeight) {
     navBar.classList.add("navbar-full-border");
