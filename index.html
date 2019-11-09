@@ -21,20 +21,22 @@
     ***** Code Start From Here *****
     ******************************** -->
 <div style="text-align: center;">
-  <img src="logo.png" alt="">
+  <a href="index.html" class="desktop-logo"><img src="logo.png" alt=""></a>
 </div>
-    <div class="navbar" >
-      <ul id="mobile-menu">
+    <nav class="custom-navbar" id="navBar">
+      <ul id="mobile-menu" >
         <li> <a href="#Home" >Home</a></li>
-        <li class="dropdown"> <a href="#Home">Gifts</a>
-          <div class="drop-content">
-            <ul>
-              <li><a href="#">Gifts For Him</a></li>
-              <li><a href="#">Gifts For Her</a></li>
-              <li><a href="#">Gifts For Kids</a></li>
-            </ul>
-          </div>
-        </li>
+        <li class="custom-dropdown"> <a href="#Home">Gifts</a>
+         <!-- dropdown menu start-->
+         <div class="drop-content">
+          <ul>
+            <li><a href="#">Gifts For Him</a></li>
+            <li><a href="#">Gifts For Her</a></li>
+            <li><a href="#">Gifts For Kids</a></li>
+          </ul>
+        </div>
+        <!-- dropdown menu end-->
+      </li>
         <li> <a href="#Portfolio">Gadgets</a></li>
         <li> <a href="#Blog">Geek</a></li>
         <li> <a href="#Content">Household</a></li>
@@ -45,13 +47,15 @@
         <li> <a href="#Content">T-shirts</a></li>
         <li>  <a href="#Content">Under $25</a></li>
       </ul>
+      <!-- mobile view logo -->
+      <a href="index.html" class="mobile-logo"><img src="logo.png" alt=""></a>
       <!-- humberg menu  -->
       <div class="menu-icon" id="displayMenu">
         <span class="first-icon"></span>
         <span class="secound-icon"></span>
         <span class="third-icon"></span>
       </div>
-    </div>
+    </nav>
     <!-- Code end -->
 
 
